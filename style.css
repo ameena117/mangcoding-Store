@@ -2,7 +2,17 @@
     padding: 0;
     margin: 0;
 }
-
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5% 10%;
+}
+.part1, .part2{
+    width: 50%;
+}
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -48,9 +58,41 @@
 a.nav-item-btn.reg {
     color: white;
     background-color: #545BE8;
+    padding: 5px 20px;
 }
 
 a.nav-item-btn.log {
     background-color: white;
     color: #545BE8;
+}
+
+.part1{
+    text-align: start;
+}
+
+#begin{
+    color: #545BE8;
+}
+#find{
+    font-size: 40px;
+}
+.container .buttons{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.reg{
+    background-color: #545BE8;
+    color: white;
+    border-radius: 4.5px;
+    padding: 3px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.play{
+    display: flex;
+    text-decoration: none;
+}
+.container-img{
+    margin: 2%;
 }
